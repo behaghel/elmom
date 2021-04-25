@@ -1,0 +1,35 @@
+#+TITLE: elmom
+#+AUTHOR: Hubert Behaghel
+#+EMAIL: behaghel@gmail.com
+#+LANGUAGE: en
+#+OPTIONS: H:4 toc:3 ^:{}
+
+* Why Should You Care
+You would care if you're a line manager who cares and uses emacs (and
+org-mode but is it really worth mentioning?).
+
+* Disclaimer
+I used to code for a leaving but as the focus of this package implies,
+I am now well into supporting others to do it. That's to say these
+days are well behind me. In fact, my most professional way with code
+these days is to *not* ship it to production. And when it comes to
+elisp, this is my first package after decades of awful tinkering.
+
+I guess you have been warned enough at this stage. Now if you would
+take pity of a manager who is trying to keep his hands dirty, by any
+mean, review my code and mentor me. There is a special place in heaven
+for the merciful souls that look after those who sacrifice coding so
+that others don't have to.
+
+* Development
+You need to set up dependencies under the same directory under which
+your clone lives. Or tweak the LDFLAGS variable from the ~Makefile~
+accordingly.
+
+#+begin_src bash
+  # compile
+  $ make
+
+  # run the tests
+  $ make test
+#+end_src
